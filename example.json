@@ -1,0 +1,42 @@
+{
+	"tipoIdentificacion": "Cédula",
+	"identificacion": "1723587778",
+	"primerApellido": "VILLAFUERTE",
+	"segundoApellido": "BENAVIDES",
+	"nombres": "ARTURO JOSE",
+	"fechaNacimiento": "09/05/1991",
+	"sexo": "HOMBRE",
+	"genero": "MASCULINO",
+	
+	"estadoCivil": "",
+	
+	
+	"listaNegra": "No",
+	
+	"limiteCredito": "$150",
+	
+	"valorPendienteEntero": "0",
+	"valorPendienteDecimal": "",
+	"saldoTotal": "",
+	
+	"fechaCreacion": "31/05/2017",
+	
+	"lugarTrabajo": "",
+	
+	"provinciaEstado": "PICHINCHA",
+	"ciudad": "QUITO",
+	"parroquiaSector": "Por definir - No usar",
+	"callePrincipal": "Por definir - No us",
+	"calleSecundaria": "Por definir - No us",
+	"urbanizacion": "",
+	"etapa": "",
+	"numeroCasa": "Por definir - No us",
+	"construccionCondominio": "",
+	"informacionAdicional": "NN",
+	
+	"mail": "artvill65@gmail.com",
+	"numeros": [
+		"0988036775",
+		"0980446512"
+	]
+}
