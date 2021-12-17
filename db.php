@@ -1,9 +1,14 @@
 <?php
-echo 'xd';
 $pdo = require 'Connect.php';
-$response = $pdo->query('SELECT * FROM pg_catalog.pg_tables');
-$origin=$response->fetch();
 
-foreach($origin as $key=>$item){
-    echo "$key=> $item <br>";
-}
+$response = $pdo->prepare('select * from information_schema.tables where table_$
+
+$detail="public";
+$response->execute([$detail]);
+
+$origin=$response->fetchAll(PDO::FETCH_ASSOC);
+
+
+
+print_r($origin);
+
