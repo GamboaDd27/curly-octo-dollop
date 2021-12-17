@@ -1,18 +1,9 @@
 <?php
-
+echo 'xd';
 $pdo = require 'Connect.php';
+$response = $pdo->query('SELECT * FROM pg_catalog.pg_tables');
+$origin=$response->fetch();
 
-
-echo "
-\$pdo: ". $pdo. "
-";
-
-// // pass the connect instance to the pg_query() method 
-// $response = pg_query($conn, 'SELECT * FROM origen');
-
-// /// close the connection to free memory
-// pg_close($conn);
-
-// // end of the PHP script
-// echo $response;
-// echo 'xd';
+foreach($origin as $key=>$item){
+    echo "$key=> $item <br>";
+}
